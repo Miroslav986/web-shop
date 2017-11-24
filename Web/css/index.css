@@ -1,0 +1,31 @@
+.card .price {
+	position:absolute;
+	top: 8px;
+	right:8px;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.old-image {
+	max-height: 175px;
+}
+.card .card-img-top {
+	object-fit: contain;
+	height: 150px;
+}
+/*#navbarNav {
+	cursor: pointer;
+}*/
+.nav-item .dropdown {
+  cursor: pointer;
+}
+.pagination {
+	display: flex;
+	
+	justify-content:  center;
+	align-items: center;
+}
